@@ -1,0 +1,48 @@
+@media (min-width:768px) and (max-width:1024px) {
+    .main-container {
+        background-image: url(/assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 150vh;
+
+    }
+
+    .navigations-link {
+        margin-top: 0px;
+    }
+
+    .logo-and-line {
+        margin-top: 20px;
+    }
+
+    [alt="line"] {
+        width: 0px;
+
+    }
+
+    .sub-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 0px;
+    }
+
+    .container {
+        margin: 40px 160px;
+        max-width: 100vh;
+
+    }
+
+    .space {
+        max-width: 100%;
+        text-align: center;
+
+    }
+
+    .explore {
+        width: 200px;
+        height: 200px;
+    }
+
+}

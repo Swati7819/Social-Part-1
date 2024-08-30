@@ -1,0 +1,70 @@
+@media (max-width:760px) {
+    .main-container {
+        background-image: url(/assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 125vh;
+    }
+
+    .navigations-link {
+        display: none;
+    }
+
+    [alt="line"] {
+        width: 0px;
+
+    }
+
+    .container {
+        margin: 50px 0px;
+        /* max-width: 100vh; */
+        min-height: fit-content;
+
+    }
+
+    .sub-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+        margin-top: 0px;
+    }
+
+    .logo-and-line {
+        margin-top: 20px;
+    }
+
+    [alt="logo"] {
+        margin-left: 30px;
+    }
+
+    .space {
+        max-width: 80%;
+        align-items: center;
+    }
+
+    .explore {
+        height: 250px;
+        width: 250px;
+    }
+
+    .third-line {
+        text-align: center;
+    }
+
+    .first-line {
+        font-size: 19px;
+    }
+
+    .hamburger-menu {
+        position: absolute;
+        right: 0;
+        margin-right: 30px;
+        margin-top: 15px;
+        font-size: 48px;
+        cursor: pointer;
+        display: block;
+    }
+
+
+}
